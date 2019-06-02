@@ -18,7 +18,7 @@ Start SBT using the `sbt` command to enter SBT's *interactive mode*
 (`>` prompt):
 
 ```bash
-$ sbt
+\$ sbt
 [info] Loading global plugins from <DIRECTORY>
 [info] Loading project definition from <DIRECTORY>
 [info] Set current project to <PROJECT_NAME>
