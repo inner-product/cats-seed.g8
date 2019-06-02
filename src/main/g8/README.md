@@ -18,7 +18,7 @@ Start SBT using the `sbt` command to enter SBT's *interactive mode*
 (`>` prompt):
 
 ```bash
-\$ sbt
+$ sbt
 [info] Loading global plugins from <DIRECTORY>
 [info] Loading project definition from <DIRECTORY>
 [info] Set current project to <PROJECT_NAME>
@@ -46,7 +46,7 @@ to play with small snippets of code:
 > console
 [info] Starting scala interpreter...
 [info]
-Welcome to Scala 2.12.3 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_112).
+Welcome to Scala 2.12.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_112).
 Type in expressions for evaluation. Or try :help.
 
 scala> import cats._, cats.implicits._, cats.data._
@@ -70,13 +70,7 @@ and return to your shell.
 
 If you don't have a particular preference for a Scala editor or IDE,
 we strongly recommend you do the exercises for this course using
-the [Atom][atom] editor and a Linux or OS X terminal.
-See the instructions below to get started.
-
-If you want to use [Scala IDE][scala-ide] for Eclipse,
-we recommend using [sbteclipse][sbteclipse].
-Follow the instructions on the `sbteclipse` web page
-to install it as a global SBT plugin.
+the [VS Code][vscode] editor with the [Metals][metals] extension.
 
 If you want to use IntelliJ IDEA,
 follow the instructions for [Importing an SBT Project][intellij-setup]
@@ -87,7 +81,7 @@ in the IntelliJ online documentation.
 If you want to discuss the content or exercises with the authors,
 join us in our chat room on [Gitter][gitter].
 
-[cats-seed]: https://github.com/underscoreio/cats-seed.g8
+[cats-seed]: https://github.com/inner-product/cats-seed.g8
 [underscore]: https://underscore.io
 [book]: https://underscore.io/books/advanced-scala
 [license]: https://creativecommons.org/publicdomain/zero/1.0/
@@ -98,3 +92,5 @@ join us in our chat room on [Gitter][gitter].
 [sbteclipse]: https://github.com/typesafehub/sbteclipse
 [intellij-idea]: https://www.jetbrains.com/idea
 [intellij-setup]: https://www.jetbrains.com/help/idea/2016.1/getting-started-with-sbt.html#import_project
+[vscode]: https://code.visualstudio.com/
+[metals]: https://scalameta.org/metals/docs/editors/vscode.html
