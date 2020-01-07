@@ -2,7 +2,7 @@
 
 Minimal Giter8 template to get you set up with Cats.
 
-Copyright 2017 Underscore Consulting LLP. Licensed [CC0 1.0][license].
+Copyright 2019 Inner Product LLC, 2017 Underscore Consulting LLP. Licensed [CC0 1.0][license].
 
 ## Getting Started
 
