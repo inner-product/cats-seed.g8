@@ -1,7 +1,7 @@
 name := "$name;format="lower,hyphen"$"
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.10"
 
 scalacOptions ++= Seq(
   "-encoding", "UTF-8",   // source files are in UTF-8
@@ -20,6 +20,6 @@ scalacOptions in (Compile, console) ~= (_.filterNot(
     "-Xfatal-warnings"
   )))
 
-libraryDependencies += "org.typelevel" %% "cats-core" % "1.6.0"
+libraryDependencies += "org.typelevel" %% "cats-core" % "2.0.0"
 
-addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.3")
+addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.11.0" cross CrossVersion.full)
